@@ -1,0 +1,49 @@
+img{
+    width: 30px;
+    height: auto;
+    border-radius: 50%;
+}
+.one{
+    object-fit: cover;
+    display: flex;
+    position: relative;
+}
+.one p{
+    position: absolute;
+    left: 50px;
+    translate: 0 -50%;
+}
+.one a{
+    position: absolute;
+    left: 200px;
+}
+.suggest{
+    display: flex;
+    position: relative;
+}
+.suggest p{
+    position: absolute;
+    left: 200px;
+}
+.up img{
+    width: 50px;
+}
+.up{
+    display: flex;
+    position: relative;
+}
+
+.username{
+    margin-left: 1rem;
+    translate: 0 -10px;
+    font-weight: 600;
+}
+.fullname{
+    position: absolute;
+    left: 65px;
+    top: 10px;
+    opacity: 0.5;
+}
+
+
+

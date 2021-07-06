@@ -1,0 +1,71 @@
+body{
+	padding: 0;
+	margin: 0;
+	box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+
+}
+.box{
+	background-color: white;
+	margin-top: 1rem;
+	border: 1px solid rgba(0,0,0,0.3);
+	padding-bottom: 0.5rem;
+	padding-top: 0.5rem; 
+    width: min-content;
+    position:relative;
+    left:25%;
+
+    
+}
+.name {
+    display: flex;
+    padding-bottom: 0.5rem;
+
+}
+.avatar {
+    position: relative;
+    padding-left: 1rem;
+}
+
+.avatar img{
+    object-fit: cover;
+    height: 35px;
+    width: 35px;
+
+}
+.name p{
+    position: absolute;
+    top: 0%;
+    left: 10%;
+
+}
+.content {
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+.icon{
+    padding-bottom: 0.5rem;
+}
+.icon i{
+   font-size: 1.5rem; 
+   margin-right: 1rem;
+}
+
+.like{
+    font-weight: 600;
+    padding-bottom: 0.5rem;
+}
+
+.title{
+    padding-bottom: 0.5rem;
+}
+.all{
+    opacity: 0.5;
+}
+
+.addComment{
+    padding-left: 1rem;
+    opacity: 0.5;
+}
